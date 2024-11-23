@@ -1,7 +1,7 @@
 package org.example.controller;
 
 import org.example.dao.MonAnDao;
-import org.example.entities.MonAn266;
+import org.example.model.MonAn266;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

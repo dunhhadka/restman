@@ -1,7 +1,7 @@
 package org.example.controller;
 
 import org.example.dao.NhanVienDao;
-import org.example.entities.NhanVien266;
+import org.example.model.NhanVien266;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

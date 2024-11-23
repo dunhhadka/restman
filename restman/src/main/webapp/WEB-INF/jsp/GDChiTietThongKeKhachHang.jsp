@@ -1,4 +1,4 @@
-<%@ page import="org.example.entities.HoaDonBanHang266" %>
+<%@ page import="org.example.model.HoaDonBanHang266" %>
 <%@ page import="java.util.List" %>
 <%@ page contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>

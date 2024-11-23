@@ -4,7 +4,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.example.dao.KhachHangDao;
 import org.example.dao.MonAnDao;
-import org.example.entities.KhachHang266;
+import org.example.model.KhachHang266;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

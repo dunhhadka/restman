@@ -1,6 +1,6 @@
 package org.example.dao;
 
-import org.example.entities.HoaDonBanHang266;
+import org.example.model.HoaDonBanHang266;
 
 import java.sql.*;
 import java.time.LocalDate;

@@ -1,6 +1,6 @@
 package org.example.dao;
 
-import org.example.entities.NhanVien266;
+import org.example.model.NhanVien266;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

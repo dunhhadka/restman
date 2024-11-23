@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
-<%@ page import="org.example.entities.MonAn266" %>
+<%@ page import="org.example.model.MonAn266" %>
 <%@ page import="java.util.List" %>
 <!DOCTYPE html>
 <html lang="vi">

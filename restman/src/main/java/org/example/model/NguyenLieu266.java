@@ -1,4 +1,4 @@
-package org.example.entities;
+package org.example.model;
 
 public class NguyenLieu266 {
     private int id;

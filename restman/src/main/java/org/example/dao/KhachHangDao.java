@@ -1,6 +1,6 @@
 package org.example.dao;
 
-import org.example.entities.KhachHang266;
+import org.example.model.KhachHang266;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
