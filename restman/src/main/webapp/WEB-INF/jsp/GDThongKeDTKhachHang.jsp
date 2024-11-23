@@ -9,7 +9,6 @@
     <title>Trang chủ</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* General Styling for Top Menu */
         .top-menu {
             background-color: #007bff;
             color: white;
@@ -32,14 +31,13 @@
             font-size: 16px;
         }
 
-        /* Input styling */
         .input-group {
             display: flex;
             align-items: center;
         }
 
         .input-group-text {
-            background-color: #0056b3; /* Dark blue */
+            background-color: #0056b3;
             color: white;
             font-weight: bold;
             border: none;
@@ -53,11 +51,11 @@
             border-radius: 0 5px 5px 0;
             font-size: 14px;
             padding: 5px 10px;
-            width: 120px; /* Adjust size */
+            width: 120px;
         }
 
         .btn {
-            background-color: #0056b3; /* Dark blue */
+            background-color: #0056b3;
             color: white;
             font-weight: bold;
             border: none;
@@ -71,7 +69,6 @@
             background-color: #003d80;
         }
 
-        /* Center align the page title */
         h3 {
             text-align: center;
             margin-top: 100px;
@@ -79,7 +76,6 @@
             font-weight: bold;
         }
 
-        /* Styling the table */
         .table {
             margin-top: 30px;
             border-collapse: collapse;
@@ -129,7 +125,6 @@
 </head>
 <body>
 
-<!-- Top Menu -->
 <div class="top-menu">
     <div class="menu-items">
         <div class="d-flex align-items-center">
@@ -148,7 +143,6 @@
     </div>
 </div>
 
-<!-- Table to display the results -->
 <div class="container mt-5">
     <h3 class="mb-4">Thống kê doanh thu khách hàng</h3>
     <div id="noDataMessage" class="alert alert-info" style="display: none;">
@@ -188,11 +182,9 @@
             success: function (response) {
                 console.log(response);
 
-                // Clear previous data
                 const tableBody = document.getElementById("statsTable").getElementsByTagName("tbody")[0];
                 tableBody.innerHTML = "";
 
-                // Show or hide the no data message
                 const noDataMessage = document.getElementById("noDataMessage");
                 const statsTable = document.getElementById("statsTable");
 

@@ -173,7 +173,6 @@
 </head>
 <body>
 
-<!-- Top Menu -->
 <div class="top-menu">
     <div class="menu-items">
         <div>
@@ -191,7 +190,6 @@
     </div>
 </div>
 
-<!-- Nội dung chính -->
 <div class="container">
     <div class="row justify-content-center">
         <h1>Danh sách Món Ăn</h1>

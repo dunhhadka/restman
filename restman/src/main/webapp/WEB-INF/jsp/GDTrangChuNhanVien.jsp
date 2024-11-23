@@ -9,7 +9,6 @@
     <title>Trang chủ</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* General Styling for Top Menu */
         .top-menu {
             background-color: #007bff;
             color: white;
@@ -40,12 +39,10 @@
             color: #ffdd57;
         }
 
-        /* Welcome Text Styling */
         .welcome-text {
             font-size: 16px;
         }
 
-        /* Dropdown Styling */
         .dropdown {
             position: relative;
             display: inline-block;
@@ -86,13 +83,11 @@
             color: white;
         }
 
-        /* Show dropdown on hover */
         .dropdown:hover .dropdown-content {
             display: block;
             animation: fadeIn 0.3s ease-in-out;
         }
 
-        /* Animation for dropdown */
         @keyframes fadeIn {
             from {
                 opacity: 0;
@@ -104,7 +99,6 @@
             }
         }
 
-        /* Responsive Styling */
         @media (max-width: 768px) {
             .top-menu .menu-items {
                 flex-direction: column;
@@ -119,7 +113,6 @@
 </head>
 <body>
 
-<!-- Top Menu -->
 <div class="top-menu">
     <div class="menu-items">
         <div>

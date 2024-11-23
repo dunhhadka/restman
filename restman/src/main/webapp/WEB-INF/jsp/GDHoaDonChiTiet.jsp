@@ -177,7 +177,6 @@
         </div>
     </div>
 
-    <!-- Thông tin hóa đơn -->
     <div class="info-card">
         <h4>Thông tin hóa đơn</h4>
         <div class="row">

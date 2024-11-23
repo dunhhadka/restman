@@ -82,7 +82,6 @@
 </head>
 <body>
 <div class="container">
-    <!-- Thông tin khách hàng -->
     <div class="customer-info">
         <h3>Thông tin khách hàng</h3>
         <p><strong>ID Khách Hàng:</strong> ${khachHang.id}</p>
@@ -92,7 +91,6 @@
         <p><strong>Địa Chỉ:</strong> ${khachHang.diaChi}</p>
     </div>
 
-    <!-- Danh sách hóa đơn -->
     <h3 class="mb-4">Danh sách hóa đơn</h3>
     <div class="row">
         <%

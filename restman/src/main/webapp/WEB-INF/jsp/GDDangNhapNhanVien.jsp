@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <!-- Thay đổi Bootstrap 4 sang Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif; /* Chuyển font thành Arial để tránh lỗi hiển thị */
+            font-family: Arial, sans-serif;
             background-color: #f0f2f5;
             position: relative;
         }

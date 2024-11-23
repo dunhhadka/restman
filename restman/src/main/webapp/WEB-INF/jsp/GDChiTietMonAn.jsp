@@ -65,10 +65,9 @@
             margin: 20px 0;
         }
 
-        /* Hình ảnh nhỏ hơn */
         .mon-an-detail-card img {
-            width: 150px; /* Giảm kích thước width */
-            height: 150px; /* Giảm kích thước height */
+            width: 150px;
+            height: 150px;
             object-fit: cover;
             border-radius: 8px;
             margin-right: 20px;
@@ -115,7 +114,6 @@
 </head>
 <body>
 
-<!-- Top Menu -->
 <div class="top-menu">
     <div class="menu-items">
         <div>
@@ -126,7 +124,6 @@
     </div>
 </div>
 
-<!-- Nội dung chi tiết món ăn -->
 <div class="container">
     <h1>Chi Tiết Món Ăn</h1>
     <div class="mon-an-detail-card">
