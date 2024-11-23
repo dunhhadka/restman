@@ -261,7 +261,6 @@
         <p><strong>Trạng thái Thanh Toán:</strong> ${hoaDon.trangThaiThanhToan}</p>
     </div>
 
-    <button class="btn-print" onclick="window.print()">In hóa đơn</button>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

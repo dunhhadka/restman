@@ -116,9 +116,6 @@
 <div class="top-menu">
     <div class="menu-items">
         <div>
-            <a href="#">Trang chủ</a>
-            <a href="#">Giới thiệu</a>
-            <a href="#">Liên hệ</a>
             <div class="dropdown">
                 <a class="dropdown-btn">Xem báo cáo <i class="bi bi-chevron-down"></i></a>
                 <div class="dropdown-content">

@@ -176,9 +176,6 @@
 <div class="top-menu">
     <div class="menu-items">
         <div>
-            <a href="/home">Trang chủ</a>
-            <a href="/about">Giới thiệu</a>
-            <a href="/contact">Liên hệ</a>
         </div>
         <div class="search-bar">
             <input type="text" id="searchInput" placeholder="Tìm kiếm món ăn..."/>

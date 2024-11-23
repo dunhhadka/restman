@@ -73,7 +73,6 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Đăng nhập</button>
                     <div class="text-center mt-3">
-                        <a href="#">Quên mật khẩu?</a>
                     </div>
                 </form>
             </div>
